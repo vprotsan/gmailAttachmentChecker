@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <script src="js-dom.js"></script>
+  <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <form>
+    <div class="action-container">
+      <input class="send button" type="submit" value="send">
+      <button class="save-draft button">Save Draft</button>
+      <button class="discard button">Discard</button>
+    </div>
+    <div class="message-container">
+        <div id="info">
+          <div>
+            <label for="to" class="label">To:</label>
+            <input type="email" placeholder="To:" id="to" name="to" class="input">
+          </div>
+          <div>
+            <label for="cc" class="label">CC:</label>
+            <input type="email" placeholder="Cc:" id="cc" name="cc" class="input">
+          </div>
+          <div>
+            <label for="bcc" class="label">Bcc:</label>
+            <input type="email" placeholder="Bcc:" id="bcc" name="bcc" class="input">
+          </div>
+          <div>
+            <label for="subject" class="label">Subject:</label>
+            <input type="text" placeholder="Subject:" id="subject" name="subject" class="input">
+          </div>
+          <div>
+            <label for="file" class="label">Attachments:</label>
+            <input type="file" id="file" name="file" class="input">
+          </div>
+        </div>
+        <div id="message">
+          <textarea rows="4" id="msg-body"></textarea>
+        </div>
+    </div>
+    <div class="action-container">
+      <input class="send button" type="submit" value="send">
+      <button class="save-draft button">Save Draft</button>
+      <button class="discard button">Discard</button>
+    </div>
+  </form>
+</body>
+</html>
