@@ -1,0 +1,52 @@
+body {
+
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#info div {
+  display: flex;
+  margin: 10px 0;
+}
+
+.label {
+  display: block;
+  width: 30%;
+}
+
+.input {
+  width: 70%;
+  border: 1px solid #eeeeee;
+  padding: 5px 10px;
+  width: 70%;
+}
+
+.button {
+  background-color: #68d2e7;
+  border-radius: 5px;
+  border: 0;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin: 0 5px;
+}
+
+#message textarea {
+  font-size: 20px;
+  width: 100%;
+  border: 1px solid #eeeeee;
+}
+
+.action-container:first-child {
+  margin-bottom: 20px;
+}
+
+.action-container:nth-child(2) {
+  margin-top: 20px;
+}
+
+.red-border {
+  border: 2px solid red;
+}
